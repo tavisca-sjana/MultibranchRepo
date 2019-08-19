@@ -4,9 +4,12 @@ pipeline
 
     stages
     {
-        stage('stage 1')
+        stage('stage1')
         {
-            echo "I am branch2 jenkins file"
+            steps
+            {
+                echo "I am branch2 jenkinsfile"
+            }
         }
     }
 }
